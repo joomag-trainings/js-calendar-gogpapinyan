@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Month Calendar</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div style="width:20%; margin: 10% 5% 20% 70%">
+        <table>
+            <thead>
+                <tr>
+                    <td colspan="3" id="year">
+                        <select id="selectYear">
+                            <option value="" disabled selected hidden>Select year</option>
+                        </select>
+                    </td>
+                    <td colspan="4" id="month">
+                        <select id="selectMonth">
+                            <option value="" disabled selected hidden>Select month</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr id="daysofweek">
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                    <th>Sun</th>
+
+                </tr>
+            </thead>
+            <tbody id="bodyTable">
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
